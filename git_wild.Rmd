@@ -36,9 +36,9 @@ ggplot(data = diamonds, aes(x = color, y = carat)) +
 ## PART B: Make problems
 
 ```{r break-it-1}
-ggplot(data = diamonds, aes(x = depth, y = carat)) +
-  geom_point() +
-  theme_void()
+poop <- c(1, 4, 9, 11, 18, 27, 49, 63)
+poop
+# Coding is difficult but kinda fun?
 ```
 
 ```{r break-it-2}
