@@ -39,6 +39,7 @@ ggplot(data = diamonds, aes(x = color, y = carat)) +
 poop <- c(1, 4, 9, 11, 18, 27, 49, 63)
 poop
 # Coding is difficult but kinda fun?
+#fuck maybe it did not pull lol
 ```
 
 ```{r break-it-2}
