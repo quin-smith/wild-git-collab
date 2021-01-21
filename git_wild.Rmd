@@ -53,7 +53,8 @@ ggplot(data = hi_price, aes(x = carat, y = price, color = cut)) +
 ```
 
 ```{r break-it-2}
-
+poop_plus <- poop + 3
+poop_plus
 ```
 
 ## END Discussion 3
