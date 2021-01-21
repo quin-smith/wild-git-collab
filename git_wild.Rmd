@@ -36,6 +36,11 @@ ggplot(data = diamonds, aes(x = color, y = carat)) +
 ## PART B: Make problems
 
 ```{r break-it-1}
+
+poop <- c(1, 4, 9, 11, 18, 27, 49, 63)
+poop
+# Coding is difficult but kinda fun?
+#fuck maybe it did not pull lol
 hi_price <- diamonds %>% 
   filter(price > 1000)
 
@@ -44,6 +49,7 @@ ggplot(data = hi_price, aes(x = carat, y = price, color = cut)) +
   theme_void() +
   labs(title = "QUIN was here") +
   theme_minimal()
+
 ```
 
 ```{r break-it-2}
