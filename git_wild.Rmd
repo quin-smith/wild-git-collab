@@ -53,9 +53,14 @@ ggplot(data = hi_price, aes(x = carat, y = price, color = cut)) +
 ```
 
 ```{r break-it-2}
+
+poop_plus <- poop + 3
+poop_plus
+
 ggplot(data = diamonds, aes(x = cut, y = clarity)) +
   geom_point()
 diamonds
+
 ```
 
 ## END Discussion 3
